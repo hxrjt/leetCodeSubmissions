@@ -1,0 +1,10 @@
+// Last updated: 7/25/2025, 1:49:29 AM
+class Solution {
+public:
+    bool isPowerOfTwo(int n) {
+        if(n>0&&(n&(n-1))==0){
+            return true;
+        }
+        return false;
+    }
+};
